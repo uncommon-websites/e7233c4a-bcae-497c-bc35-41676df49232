@@ -23,7 +23,7 @@ A minimalist teaser for the about page.
 	const teamMember: TeamMember = {
 	name: "Mia Wähälä",
 	role: "Founder, Wahala",
-	image: "/generated/image-a-founder-in-a-warm-professional-setting.webp"
+	image: "/uploaded/uploaded-image-20250522-222433.jpg"
 };
 </script>
 
