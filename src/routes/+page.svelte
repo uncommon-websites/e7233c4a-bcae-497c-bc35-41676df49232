@@ -164,7 +164,7 @@
   title="Say yes to change"
   subtitle="Invest in the growth you want — for yourself or your team."
   description="Experience honest, human coaching that helps you or your team move forward with clarity, energy, and focus. Wahala creates space for meaningful growth—without the noise."
-  imageSrc="/generated/image-a-cheerful-startup-team-leader-standing-.webp"
+  imageSrc="/uploaded/uploaded-image-20250522-222659.jpg"
   callsToAction={[
     { href: '/contact', label: 'Book intro call', variant: 'primary' },
     { href: '/how-it-works', label: 'See how it works', variant: 'secondary' }
