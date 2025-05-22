@@ -11,7 +11,7 @@
 </script>
 
 <CustomerCardHero
-  centered={false}
+  centered={true}
   title="Rewrite your story to grow with purpose"
   subtitle="Coaching and team experiences that help you reflect, reconnect, and lead with clarity—personally and together."
   customers={[
