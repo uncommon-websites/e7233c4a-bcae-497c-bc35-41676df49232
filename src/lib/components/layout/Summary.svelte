@@ -64,23 +64,17 @@
 </script>
 
 <div
-	class="section-my section-px relative container mx-auto flex flex-col items-start gap-8 text-pretty bg-card rounded-(--radius) border border-border shadow-[0_4px_24px_0_rgba(188,144,84,0.07)] lg:grid xl:flex-row"
-	bind:this={containerElement}
-	class:lg:grid-cols-[1fr_2fr]={!!title}
-	{...rest}
+  class="flex justify-center items-center w-full min-h-[120px] py-16 px-4"
+  bind:this={containerElement}
+  { ...rest }
 >
-	{#if title}
-		<p class="text-emphasis-dim word">{title}</p>
-	{/if}
-
-	<div class="text-title1 container-sm gap relative mx-auto grid">
-		{#each segments as paragraph, i}
-			<p class="mb-[1.5em] last:mb-0">
-				{#each paragraph.split(" ").filter(Boolean) as word}
-					<span class="word relative inline-block transition duration-150 ease-out">{word}</span
-					>{" "}
-				{/each}
-			</p>
-		{/each}
-	</div>
+	<div class="text-title1 text-center w-full max-w-2xl mx-auto">
+  {#each segments as paragraph, i}
+    <p class="mb-[1.5em] last:mb-0">
+      {#each paragraph.split(" ").filter(Boolean) as word}
+        <span class="word relative inline-block transition duration-150 ease-out">{word}</span>{" "}
+      {/each}
+    </p>
+  {/each}
+</div>
 </div>
