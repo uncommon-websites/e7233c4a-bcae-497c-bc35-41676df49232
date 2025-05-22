@@ -64,7 +64,7 @@
 </script>
 
 <div
-	class="section-my section-px relative container mx-auto flex flex-col items-start gap-8 text-pretty lg:grid xl:flex-row"
+	class="section-my section-px relative container mx-auto flex flex-col items-start gap-8 text-pretty bg-card rounded-(--radius) border border-border shadow-[0_4px_24px_0_rgba(188,144,84,0.07)] lg:grid xl:flex-row"
 	bind:this={containerElement}
 	class:lg:grid-cols-[1fr_2fr]={!!title}
 	{...rest}

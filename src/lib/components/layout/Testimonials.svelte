@@ -145,7 +145,7 @@
 					class={[
 						"lg:container-xs  lg:min-w-[50%] lg:grid-cols-[2fr_3fr]",
 						"items-between grid grid-cols-1 gap-8",
-						"bg-card dark:text-white",
+						"bg-card dark:text-white shadow-[0_4px_24px_0_rgba(188,144,84,0.10)]",
 						"aspect-video max-w-full min-w-full xl:aspect-[auto]",
 						"transform-gpu transition-transform duration-200 ease-[cubic-bezier(0.16,1,0.3,1)] will-change-transform",
 						"rounded-(--outer-radius) p-(--gap)",
