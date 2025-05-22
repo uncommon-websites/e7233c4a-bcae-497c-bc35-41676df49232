@@ -121,53 +121,57 @@
 	];
 
 	const employeeTestimonials = [
-		{
-			name: "Michael Chen",
-			position: "Senior Developer",
-			company: "Engineering Team",
-			quote:
-				"Working here has given me the opportunity to tackle challenging problems while maintaining a healthy work-life balance. The team culture is supportive and collaborative.",
-			image:
-				"https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=774&q=80"
-		},
-		{
-			name: "Priya Sharma",
-			position: "Product Designer",
-			company: "Design Team",
-			quote:
-				"The creative freedom and opportunity to influence product decisions makes this the best place I've ever worked. I'm constantly learning and growing.",
-			image:
-				"https://images.unsplash.com/photo-1534528741775-53994a69daeb?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=774&q=80"
-		},
-		{
-			name: "Marcus Johnson",
-			position: "Marketing Lead",
-			company: "Marketing Team",
-			quote:
-				"I joined three years ago and have grown tremendously. The leadership truly invests in your development and the work environment is both challenging and supportive.",
-			image:
-				"https://images.unsplash.com/photo-1531384441138-2736e62e0919?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=774&q=80"
-		}
-	];
+  {
+    name: "Fatima Diallo",
+    position: "People Operations Manager",
+    company: "HR & People Team",
+    quote:
+      "What stands out here is the sense of belonging. I'm empowered to foster growth for others while being encouraged to grow myself. I’ve never felt more supported or accepted at work.",
+    image:
+      "/generated/image-a-black-woman-in-a-modern-hr-office-smil.webp"
+  },
+  {
+    name: "Michael Chen",
+    position: "Senior Developer",
+    company: "Engineering Team",
+    quote:
+      "Growth is part of the everyday culture—there’s space to ask questions, share ideas, and level up with the help of mentors who genuinely care. Every voice is valued, and that means a lot.",
+    image:
+      "/generated/image-an-asian-man-in-an-open-plan-office-deep.webp"
+  },
+  {
+    name: "Emily Carter",
+    position: "Product Strategist",
+    company: "Product Team",
+    quote:
+      "I appreciate how transparent and collaborative the environment is. I started as a junior and was trusted with real responsibility. The team celebrates wins together and learns from challenges as a group.",
+    image:
+      "/generated/image-a-white-woman-in-a-creative-workspace-an.webp"
+  }
+];
 
 	const processSteps = [
-		{
-			step: 1,
-			title: "Apply",
-			description:
-				"Submit your application through our careers portal with your resume and portfolio."
-		},
-		{
-			step: 2,
-			title: "Interview",
-			description: "Meet with our team to discuss your experience, skills, and career aspirations."
-		},
-		{
-			step: 3,
-			title: "Welcome aboard",
-			description: "Join our team and start your journey building the future with us."
-		}
-	];
+	{
+		step: 1,
+		title: "Reach out",
+		description: "Introduce yourself with a short note about who you are, what drew you here, and what role or support you’re seeking. No need for a traditional CV—just your story."
+	},
+	{
+		step: 2,
+		title: "Get into conversation",
+		description: "If there’s mutual interest, we’ll set up a call. Less of an interview, more of a sense-check about alignment and shared values."
+	},
+	{
+		step: 3,
+		title: "Try a practical step",
+		description: "Depending on the fit, you may co-design a task, mock session, or project to see how we might collaborate."
+	},
+	{
+		step: 4,
+		title: "Start simply",
+		description: "If all feels right, we’ll begin together with a clear scope. You’ll always hear back from us within a week at each stage." 
+	}
+];
 
 	const values = [
 		{
@@ -191,8 +195,9 @@
 <!-- Hero Section -->
 
 <SecondaryHero
-	title="Join our team of innovators"
-	subtitle="We're looking for passionate people to help us build the future of digital experiences. Discover your next opportunity with us."
+	title="Change stories. Grow better."
+	subtitle="Help shape growth journeys where every team and individual feels they belong."
+	imageSrc="/generated/image-a-modern-office-space-with-a-diverse-gro.webp"
 />
 
 <!-- Why Join Us Section -->

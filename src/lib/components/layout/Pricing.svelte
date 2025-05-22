@@ -35,139 +35,155 @@ Please update features according to the company's product offering. Do not remov
 
 	// Props
 	const {
-		title = "Simple, transparent pricing",
-		subtitle = "Choose the plan that works best for your needs",
-		tierNames = ["Starter", "Pro", "Enterprise"],
+		title = "Simple, human pricing",
+		subtitle = "Support for individuals, teams, and leaders",
+		tierNames = ["1:1 Coaching", "Team Development", "Retreats & Offsites"],
 		features = [
-			{
-				name: "Projects",
-				tiers: {
-					Starter: "5",
-					Pro: "Unlimited",
-					Enterprise: "Unlimited"
-				}
-			},
-			{
-				name: "Team members",
-				tiers: {
-					Starter: "1",
-					Pro: "10",
-					Enterprise: "Unlimited"
-				}
-			},
-			{
-				name: "Storage",
-				tiers: {
-					Starter: "1GB",
-					Pro: "10GB",
-					Enterprise: "Unlimited"
-				}
-			},
-			{
-				name: "API access",
-				tiers: {
-					Starter: false,
-					Pro: true,
-					Enterprise: true
-				}
-			},
-			{
-				name: "Custom domains",
-				tiers: {
-					Starter: false,
-					Pro: true,
-					Enterprise: true
-				}
-			},
-			{
-				name: "Analytics",
-				tiers: {
-					Starter: "Basic",
-					Pro: "Advanced",
-					Enterprise: "Advanced"
-				}
-			},
-			{
-				name: "Support response time",
-				tiers: {
-					Starter: "24 hours",
-					Pro: "4 hours",
-					Enterprise: "1 hour"
-				}
-			},
-			{
-				name: "Dedicated account manager",
-				tiers: {
-					Starter: false,
-					Pro: false,
-					Enterprise: true
-				}
-			},
-			{
-				name: "SLA",
-				tiers: {
-					Starter: false,
-					Pro: false,
-					Enterprise: "99.9%"
-				}
+		{
+			name: "Sessions included",
+			tiers: {
+				"1:1 Coaching": "4–6 (80 min)",
+				"Team Development": "6–12 (90–120 min)",
+				"Retreats & Offsites": "1–5+ facilitated sessions"
 			}
-		],
+		},
+		{
+			name: "Program length",
+			tiers: {
+				"1:1 Coaching": "1–3 months",
+				"Team Development": "3–6 months",
+				"Retreats & Offsites": "1–3 days"
+			}
+		},
+		{
+			name: "Format",
+			tiers: {
+				"1:1 Coaching": "Zoom or in person",
+				"Team Development": "Zoom, in person, or hybrid",
+				"Retreats & Offsites": "In person only"
+			}
+		},
+		{
+			name: "Pre-program alignment",
+			tiers: {
+				"1:1 Coaching": "Chemistry call",
+				"Team Development": "Team alignment call",
+				"Retreats & Offsites": "2–3 planning sessions"
+			}
+		},
+		{
+			name: "Custom agenda / program",
+			tiers: {
+				"1:1 Coaching": false,
+				"Team Development": true,
+				"Retreats & Offsites": true
+			}
+		},
+		{
+			name: "Facilitation / hosting",
+			tiers: {
+				"1:1 Coaching": "1:1 coaching",
+				"Team Development": "Team+exec facilitation",
+				"Retreats & Offsites": "Onsite facilitation"
+			}
+		},
+		{
+			name: "Individual support",
+			tiers: {
+				"1:1 Coaching": true,
+				"Team Development": "Optional add-on",
+				"Retreats & Offsites": false
+			}
+		},
+		{
+			name: "Group support",
+			tiers: {
+				"1:1 Coaching": false,
+				"Team Development": true,
+				"Retreats & Offsites": true
+			}
+		},
+		{
+			name: "Recommended group size",
+			tiers: {
+				"1:1 Coaching": "1 person",
+				"Team Development": "Up to 6",
+				"Retreats & Offsites": "Up to 20"
+			}
+		},
+		{
+			name: "Operational & planning support",
+			tiers: {
+				"1:1 Coaching": false,
+				"Team Development": true,
+				"Retreats & Offsites": true
+			}
+		},
+		{
+			name: "On-demand contact",
+			tiers: {
+				"1:1 Coaching": "Optional email check-in",
+				"Team Development": "Ongoing support",
+				"Retreats & Offsites": "Full support before & during"
+			}
+		}
+	],
 		tiers = [
-			{
-				name: "Starter",
-				monthlyPrice: 9.99,
-				yearlyPrice: 7.99, // 20% savings
-				description: "Perfect for individuals and small projects",
-				features: [
-					"Up to 5 projects",
-					"Basic analytics",
-					"24-hour support response time",
-					"1GB storage"
-				],
-				cta: {
-					label: "Get started",
-					href: "/signup?plan=starter"
-				}
-			},
-			{
-				name: "Pro",
-				monthlyPrice: 29.99,
-				yearlyPrice: 23.99, // 20% savings
-				description: "For growing teams and businesses",
-				features: [
-					"Unlimited projects",
-					"Advanced analytics",
-					"4-hour support response time",
-					"10GB storage",
-					"Custom domains",
-					"Team collaboration tools"
-				],
-				cta: {
-					label: "Get started",
-					href: "/signup?plan=pro"
-				},
-				highlight: true
-			},
-			{
-				name: "Enterprise",
-				monthlyPrice: null,
-				yearlyPrice: null,
-				description: "For large organizations with specific needs",
-				features: [
-					"Everything in Pro",
-					"Dedicated account manager",
-					"1-hour support response time",
-					"Unlimited storage",
-					"Advanced security features",
-					"Custom integrations",
-					"99.9% uptime SLA"
-				],
-				cta: {
-					label: "Contact sales",
-					href: "/contact"
-				}
+		{
+			name: "1:1 Coaching",
+			monthlyPrice: null,
+			yearlyPrice: null,
+			description: "Personal coaching partnership for individuals seeking growth, clarity, or a new approach."
+			features: [
+				"Includes 4–6 coaching sessions (80 minutes each)",
+				"Zoom or in-person (Berlin)",
+				"Free chemistry call",
+				"Custom goals and pacing",
+				"Reflection & feedback in final session"
+			],
+			cta: {
+				label: "Book your first session",
+				href: "mailto:hello@wahala.work?subject=1:1 Coaching inquiry"
 			}
-		]
+		},
+		{
+			name: "Team Development",
+			monthlyPrice: null,
+			yearlyPrice: null,
+			description: "A structured coaching and facilitation program for leadership teams to strengthen culture and performance over 3–6 months.",
+			features: [
+				"Custom-designed program (3–6 months)",
+				"Best for teams up to 6",
+				"Individual and group sessions",
+				"Onsite, Zoom, or hybrid format",
+				"Team reflection session included",
+				"Starts with a free alignment call"
+			],
+			cta: {
+				label: "Request a team proposal",
+				href: "mailto:hello@wahala.work?subject=Team Development inquiry"
+			},
+			highlight: true
+		},
+		{
+			name: "Retreats & Offsites",
+			monthlyPrice: null,
+			yearlyPrice: null,
+			description: "Bespoke offsites to reconnect, reflect, and make momentum as a team. Fully facilitated, customized, and seamlessly delivered.",
+			features: [
+				"Hosted for up to 20 people",
+				"Goal alignment/planning support",
+				"Tailored agenda (work/rest/activities)",
+				"Onsite facilitation",
+				"External experience providers optional",
+				"Pricing custom for each team"
+			],
+			cta: {
+				label: "Plan your retreat",
+				href: "mailto:hello@wahala.work?subject=Retreat/Offsite planning inquiry"
+			}
+		}
+	]
 	}: {
 		title?: string;
 		subtitle?: string;

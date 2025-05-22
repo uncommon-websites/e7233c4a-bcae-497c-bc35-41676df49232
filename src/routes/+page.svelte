@@ -55,107 +55,118 @@
 ]} />
 
 <Summary
-	generating
 	title="What we do"
-	text="Our technology delivers measurable results through secure, adaptable solutions that directly increase productivity and drive growth."
+	text="Wahala provides coaching and curated experiences to help individuals and teams grow with intention. We create space for honest reflection and new ways of leading, working, and connecting."
 />
 
 <Testimonials
-	generating
 	testimonials={[
 		{
-			name: "Jane Smith",
-			position: "CTO",
-			company: "Tech Innovations",
+			name: "Isabelle Thorpe",
+			position: "Founder & CEO",
+			company: "Commonspring",
 			quote:
-				"Their cutting-edge automation boosted our productivity by 35%.\nThe intuitive interface reduced training time and improved team adoption.",
+				"As a founder juggling team growth and investor meetings, Wahala’s coaching helped me reclaim almost 10 hours per week by creating space to set better boundaries and reset priorities. That time now goes back into company-building — not burnout.",
 			image:
-				"https://images.unsplash.com/photo-1571513722275-4b41940f54b8?q=80&w=3687&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
+				"/generated/image-a-confident-woman-standing-on-a-rooftop-.webp"
 		},
 		{
-			name: "John Doe",
-			position: "Director of Operations",
-			company: "Global Solutions",
+			name: "Marcus Elanders",
+			position: "CFO",
+			company: "Northtrace Technologies",
 			quote:
-				"Their robust security protocols gave us confidence in handling sensitive data.\nThe 24/7 support team resolved issues within hours, not days.",
+				"Wahala supported us through a challenging team restructuring. As a CFO, I saw a clear drop in organizational risk — fewer resignations, smoother transitions, and stronger trust on the exec team. The impact showed up everywhere from morale to compliance.",
 			image:
-				"https://images.unsplash.com/photo-1600603405959-6d623e92445c?q=80&w=3687&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
+				"/generated/image-a-focused-man-in-a-high-rise-office-stan.webp"
 		},
 		{
-			name: "Sarah Johnson",
-			position: "Product Manager",
-			company: "Future Systems",
+			name: "Jamie Duarte",
+			position: "COO",
+			company: "Lucent Bioware",
 			quote:
-				"The scalable platform grew seamlessly with our business needs.\nTheir customization options allowed us to tailor solutions perfectly to our workflows.",
+				"Bringing Wahala in saved us over €75k in misaligned hiring and retrying product strategy retreats. As a nonbinary COO, I valued how deeply human the process was — and how that clarity translated directly into smart decisions and real savings.",
 			image:
-				"https://images.unsplash.com/photo-1531123897727-8f129e1688ce?q=80&w=3687&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
+				"/generated/image-a-nonbinary-person-in-a-shared-workspace.webp"
 		}
 	]}
 />
 
 <Features
-	generating
-	title="Features"
-	subtitle="Some features"
-	features={[
-		{
-			title: "Streamlined Workflows",
-			description:
-				"Automate repetitive tasks and connect systems to improve productivity with our industry-leading 87% time savings."
-		},
-		{
-			title: "Data Analysis",
-			description:
-				"Extract meaningful insights from your data with powerful analytical tools backed by proprietary AI algorithms that are 3x more accurate than competitors."
-		},
-		{
-			title: "Secure Collaboration",
-			description:
-				"Work together seamlessly while maintaining strict data privacy standards with our zero-knowledge architecture and military-grade encryption."
-		}
-	]}
+  title="How Wahala helps you grow"
+  subtitle="Coaching and team experiences that support real change and connection—no matter where you start."
+  features={[
+    {
+      title: "Coaching for individuals",
+      description: "Work 1:1 to reflect, get unstuck, and grow on your terms—not someone else’s playbook."
+    },
+    {
+      title: "Leadership team coaching",
+      description: "Build culture, trust, and honest communication in your most important rooms."
+    },
+    {
+      title: "Team offsites & retreats",
+      description: "Thoughtfully designed gatherings that bring teams closer, refresh focus, and energize real collaboration."
+    },
+    {
+      title: "A narrative approach",
+      description: "We help you rewrite the stories that drive how you lead, build, and connect—with yourself and others."
+    },
+    {
+      title: "Experience from VC and startups",
+      description: "Wahala is led by a founder with roots in law, art, startups, and top VC People & Talent. Craft is built-in."
+    },
+    {
+      title: "Human, not corporate",
+      description: "No buzzwords, just space built for honesty, care, and practical growth—done together."
+    }
+  ]}
 />
 
 <UseCases
-	generating
-	title="Use Cases"
-	subtitle="Real-world applications for your business needs"
-	useCases={[
-		{
-			title: "Streamlined Workflows",
-			description:
-				"Automate repetitive tasks and connect systems to improve productivity with our industry-leading 87% time savings.",
-			image:
-				"https://images.unsplash.com/photo-1552664730-d307ca884978?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=2940&q=80",
-			link: {
-				href: "/use-cases/workflows",
-				label: "Learn more"
-			}
-		},
-		{
-			title: "Data Analysis",
-			description:
-				"Extract meaningful insights from your data with powerful analytical tools backed by proprietary AI algorithms that are 3x more accurate than competitors.",
-			image:
-				"https://images.unsplash.com/photo-1573496359142-b8d87734a5a2?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=2488&q=80",
-			link: {
-				href: "/use-cases/data-analysis",
-				label: "Explore analytics"
-			}
-		},
-		{
-			title: "Secure Collaboration",
-			description:
-				"Work together seamlessly while maintaining strict data privacy standards with our zero-knowledge architecture and military-grade encryption.",
-			image:
-				"https://images.unsplash.com/photo-1522202176988-66273c2fd55f?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=2940&q=80",
-			link: {
-				href: "/use-cases/collaboration",
-				label: "See security features"
-			}
-		}
-	]}
+  title="Use Cases"
+  subtitle="Real-world applications for your business needs"
+  useCases={[
+    {
+      title: "Coaching for rising leaders",
+      description:
+        "Designed for high-potential professionals taking on more responsibility, fast. We create space to reflect, focus, and lead with greater intention and clarity.",
+      image: "/generated/image-a-professional-woman-attentively-coachin.webp",
+      link: {
+        href: "/use-cases/high-potential-coaching",
+        label: "Learn more"
+      }
+    },
+    {
+      title: "Team offsites that actually work",
+      description:
+        "Help your fast-growing team hit pause, reconnect, and get aligned. We handle the structure and flow so your people can focus on what matters most.",
+      image: "/generated/image-a-diverse-and-energetic-startup-leadersh.webp",
+      link: {
+        href: "/use-cases/guided-startup-offsite",
+        label: "Learn more"
+      }
+    },
+    {
+      title: "Executive narrative alignment",
+      description:
+        "VC-backed leadership teams often move quickly—sometimes without full alignment. We facilitate real-time narrative work to strengthen clarity, coherence, and trust across the top table.",
+      image: "/generated/image-an-executive-team-deeply-engaged-in-a-st.webp",
+      link: {
+        href: "/use-cases/executive-narrative-facilitation",
+        label: "Learn more"
+      }
+    }
+  ]}
 />
 
-<AboutTeaser generating />
-<CallToAction generating />
+<AboutTeaser />
+<CallToAction
+  title="Say yes to change"
+  subtitle="Invest in the growth you want — for yourself or your team."
+  description="Experience honest, human coaching that helps you or your team move forward with clarity, energy, and focus. Wahala creates space for meaningful growth—without the noise."
+  imageSrc="/generated/image-a-cheerful-startup-team-leader-standing-.webp"
+  callsToAction={[
+    { href: '/contact', label: 'Book intro call', variant: 'primary' },
+    { href: '/how-it-works', label: 'See how it works', variant: 'secondary' }
+  ]}
+/>
