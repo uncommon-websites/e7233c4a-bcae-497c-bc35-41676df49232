@@ -17,7 +17,7 @@
   customers={[
     {
       name: "Anna Müller",
-      position: "Head of people, TerraLabs",
+      position: "Head of People, TerraLabs",
       imageSrc: "/generated/image-a-professional-european-woman-leader-ele.webp",
       bio: "Working with Wahala helped me rethink what great leadership looks like—for myself and across our team."
     },
