@@ -29,7 +29,7 @@
     },
     {
       name: "Aisha Campbell",
-      position: "Startup founder, Woven",
+      position: "Startup Founder, Woven",
       imageSrc: "/generated/image-a-young-black-woman-startup-founder-dres.webp",
       bio: "I feel more grounded in how I show up for my team—and braver about what we’re building."
     },
