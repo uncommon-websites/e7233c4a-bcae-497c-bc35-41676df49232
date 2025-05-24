@@ -7,45 +7,16 @@
 	import CallToAction from "$lib/components/layout/CallToAction.svelte";
 	import AboutTeaser from "$lib/components/layout/AboutTeaser.svelte";
 	import LogoScroller from "$lib/components/layout/LogoScroller.svelte";
-	import CustomerCardHero from "$lib/components/layout/hero-sections/CustomerCardHero.svelte";
+	import FounderHero from "$lib/components/layout/hero-sections/FounderHero.svelte";
 </script>
 
-<CustomerCardHero
+<FounderHero
   centered={true}
-  title="Rewrite your story to grow with purpose"
-  subtitle="Coaching and team experiences that help you reflect, reconnect, and lead with clarity—personally and together."
-  customers={[
-    {
-      name: "Anna Müller",
-      position: "Head of People, TerraLabs",
-      imageSrc: "/generated/image-a-professional-european-woman-leader-ele.webp",
-      bio: "Working with Wahala helped me rethink what great leadership looks like—for myself and across our team."
-    },
-    {
-      name: "Diego Fernández",
-      position: "CTO, BrightChain",
-      imageSrc: "/generated/image-a-professional-latino-man-dressed-in-bus.webp",
-      bio: "The sessions gave me the insight and clarity I hadn’t been able to find in any other professional development setting."
-    },
-    {
-      name: "Aisha Campbell",
-      position: "Startup Founder, Woven",
-      imageSrc: "/generated/image-a-young-black-woman-startup-founder-dres.webp",
-      bio: "I feel more grounded in how I show up for my team—and braver about what we’re building."
-    },
-    {
-      name: "Louise Tremblay",
-      position: "Partner, Nova VC",
-      imageSrc: "/generated/image-a-professional-french-woman-a-venture-ca.webp",
-      bio: "Our offsite with Wahala brought an ease and depth to our team we hadn't found in years of working together."
-    },
-    {
-      name: "Tomoko Ichikawa",
-      position: "People operations lead, Orchard",
-      imageSrc: "/generated/image-a-japanese-woman-a-people-operations-lea.webp",
-      bio: "Wahala created space for honest conversations that helped us reconnect as a leadership team."
-    }
-  ]}
+  title="you're not stuck—and you're not alone"
+  subtitle="my background spans law, the art world, and people & talent leadership in VC-backed startups. I use that mix to help people and teams rewrite limiting stories and make meaningful change that lasts."
+  imageSrc="/uploaded/uploaded-image-20250524-004803.png"
+  bio="I help people and teams grow by sharing what I’ve learned—clarity, confidence, and connection from lived experience."
+  callsToAction={[{ href: "/contact", label: "let’s talk" }]}
 />
 <LogoScroller label="Trusted by industry leaders" logoUrls={[
   'https://logo.clearbit.com/airbnb.com',
